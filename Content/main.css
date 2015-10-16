@@ -1,0 +1,57 @@
+body {
+    font-family: sans-serif;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+h1 {
+    font-family: Consolas, sans-serif;
+    font-size: 40px;
+    line-height: 50px;
+    color: red;
+}
+
+p {
+    color: green;
+}
+
+
+
+footer {
+    color: rgb(255,255,255);
+    background-color: #35787F;
+}
+
+a {
+    color: yellow;
+}
+
+.active {
+    background-color: #69EFFF;
+}
+
+.active a {
+    color: white;
+}
+
+.mastHead {
+    border: 3px solid black;
+}
+
+.header, .firstSection {
+    background-color: rgba(79,179,191,1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
