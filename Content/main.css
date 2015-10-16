@@ -5,14 +5,19 @@ body {
     font-family: sans-serif;
     font-size: 20px;
     line-height: 25px;
+    background-image: url("../Assets/images/sky.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
 }
+
 
 h1, h2, h3, h4, h5, h6 {
     font-family: Consolas, sans-serif;
 }
 
 h1 { 
-    font-size: 40px;
+    font-size: 2em;
     line-height: 50px;
     color: red;
 }
@@ -50,8 +55,13 @@ a {
 
 /* header and masthead styles +++++++++++++++++++++++++++ */
 
+.header {
+    width: 25%;
+}
+
 .mastHead {
-    border: 3px solid black;
+    border-bottom: 3px solid black;
+    border-top: 5px dashed red;
 }
 
 .header, .firstSection {
